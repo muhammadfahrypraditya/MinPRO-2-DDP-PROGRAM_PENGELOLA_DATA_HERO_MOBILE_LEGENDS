@@ -44,9 +44,6 @@ def tambah_data():
     role = input("Role      : ")
     lane = input("Lane      : ")
 
-    if nama == "" or role == "" or lane == "":
-        print("Data tidak boleh kosong!")
-        return
     if role not in daftar_role:
         print("Role tidak valid!")
         return
@@ -55,8 +52,8 @@ def tambah_data():
         return
     for hero in data_hero:
         if hero["nama"] == nama:
-            print("Hero sudah ada!")
-            return
+        print("Hero sudah ada!")
+        return
 
     data_hero.append({"nama": nama, "role": role, "lane": lane})
     print("Data hero berhasil ditambahkan!")
