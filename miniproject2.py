@@ -44,6 +44,9 @@ def tambah_data():
     role = input("Role      : ")
     lane = input("Lane      : ")
 
+    if nama == "":
+        print("Nama tidak boleh kosong!")
+        return
     if role not in daftar_role:
         print("Role tidak valid!")
         return
@@ -93,13 +96,16 @@ def ubah_data():
     nama = input("Nama Hero baru : ")
     role = input("Role baru      : ")
     lane = input("Lane baru      : ")
-
-    if role == "" and role not in daftar_role:
-        print("Role tidak valid!")
+    
+    if nama == "":
+        print("Nama tidak boleh kosong!")
         return
-    if lane == "" and lane not in daftar_lane:
-        print("Lane tidak valid!")
+    if role not in daftar_role:
+        print("Role tidak valid")
         return
+    if lane not in daftar_lane:
+        print("Lane tidak valid")
+        return 
 
     data_hero[nomor - 1]["nama"] = nama
     data_hero[nomor - 1]["role"] = role
