@@ -158,7 +158,7 @@
         Program mengecek username dan password dengan data akun yang tersedia.
         Jika benar, akan muncul pesan <b>"Login berhasil!"</b> dan username
         dikembalikan. Jika salah, program menampilkan pesan
-        <b>"Username atau password salah!"</b>.
+        <b>"Username atau password salah"</b>.
       </p>
     </td>
   </tr>
@@ -190,7 +190,7 @@
       <p>
         Jika semua data valid dan hero belum ada, data akan ditambahkan
         menggunakan <b>append()</b> dan program menampilkan pesan
-        <b>"Data hero berhasil ditambahkan!"</b>.
+        <b>"Data hero berhasil ditambahkan"</b>.
       </p>
     </td>
   </tr>
@@ -218,7 +218,7 @@
       <p>
         Jika semua data valid, data hero akan ditambahkan ke dalam
         <b>data_hero</b> menggunakan <b>append()</b>. Setelah berhasil,
-        program menampilkan pesan <b>"Data hero berhasil ditambahkan!"</b>.
+        program menampilkan pesan <b>"Data hero berhasil ditambahkan"</b>.
       </p>
     </td>
   </tr>
@@ -301,15 +301,15 @@
       </p>
       <p>
         Program mengecek apakah input yang dimasukkan berupa angka. Jika
-        bukan angka, akan muncul pesan <b>"Masukkan angka saja!"</b>.
+        bukan angka, akan muncul pesan <b>"Masukkan angka saja"</b>.
         Setelah itu, nomor hero diperiksa untuk memastikan nomor tersebut
         tersedia. Jika tidak ditemukan, program menampilkan pesan
-        <b>"Nomor hero tidak ditemukan!"</b>.
+        <b>"Nomor hero tidak ditemukan"</b>.
       </p>
       <p>
         Jika nomor valid, data hero akan dihapus menggunakan fungsi
         <b>pop()</b>. Setelah berhasil dihapus, program menampilkan nama
-        hero beserta pesan <b>"berhasil dihapus!"</b>.
+        hero beserta pesan <b>"berhasil dihapus"</b>.
       </p>
     </td>
   </tr>
@@ -340,9 +340,9 @@
       </p>
       <p>
         Jika admin memilih pilihan 5, program menampilkan pesan
-        <b>"Logout berhasil!"</b> dan menggunakan <b>break</b> untuk
+        <b>"Logout berhasil"</b> dan menggunakan <b>break</b> untuk
         menghentikan perulangan. Jika pilihan yang dimasukkan tidak tersedia,
-        program menampilkan pesan <b>"Pilihan tidak valid!"</b> dan kembali
+        program menampilkan pesan <b>"Pilihan tidak valid"</b> dan kembali
         ke menu admin.
       </p>
     </td>
@@ -386,7 +386,7 @@
   <tr>
     <td width="50%" align="center">
       <img 
-        src="https://github.com/user-attachments/assets/8c873aeb-f083-4d0e-8f05-896b04fabead"
+     src="https://github.com/user-attachments/assets/4bfd906c-dce3-4ee0-8c7b-c8e8697806b6"
         width="100%"
       />
     </td>
@@ -406,9 +406,9 @@
       </p>
       <p>
         Jika pengguna memilih pilihan 2, program menampilkan pesan
-        <b>"Terima kasih!"</b> dan menggunakan <b>break</b> untuk mengakhiri
+        <b>"Terima kasih"</b> dan menggunakan <b>break</b> untuk mengakhiri
         program. Jika pilihan tidak tersedia, akan muncul pesan
-        <b>"Pilihan tidak valid!"</b>.
+        <b>"Pilihan tidak valid"</b>.
       </p>
     </td>
   </tr>
@@ -439,7 +439,7 @@
       <p>
         Karena semua data yang dimasukkan valid, program berhasil menambahkan
         hero ke dalam daftar dan menampilkan pesan
-        <b>"Data hero berhasil ditambahkan!"</b>.
+        <b>"Data hero berhasil ditambahkan"</b>.
       </p>
     </td>
   </tr>
@@ -498,7 +498,7 @@
       <p>
         Setelah data baru dimasukkan dan valid, program berhasil memperbarui
         data hero dan menampilkan pesan
-        <b>"Data hero berhasil diubah!"</b>.
+        <b>"Data hero berhasil diubah"</b>.
       </p>
     </td>
   </tr>
@@ -529,7 +529,7 @@
       </p>
       <p>
         Setelah berhasil dihapus, program menampilkan pesan
-        <b>"Hero Jayu berhasil dihapus!"</b>. Hal ini menunjukkan bahwa
+        <b>"Hero Jayu berhasil dihapus"</b>. Hal ini menunjukkan bahwa
         proses penghapusan data hero berhasil dilakukan.
       </p>
     </td>
@@ -559,7 +559,7 @@
       </p>
       <p>
         Setelah pilihan diproses, program menampilkan pesan
-        <b>"Logout berhasil!"</b>. Hal ini menunjukkan bahwa admin
+        <b>"Logout berhasil"</b>. Hal ini menunjukkan bahwa admin
         telah berhasil keluar dari sistem.
       </p>
     </td>
@@ -584,7 +584,7 @@
         Setelah masuk ke <b>MENU USER</b>, pengguna memilih menu <b>1. Tampilkan data hero</b>. Program kemudian menampilkan tabel berisi daftar hero yang mencakup kolom nomor, nama hero, role, dan lane (contoh: Miya, Tigreal, Alucard, dll).
       </p>
       <p>
-        Terakhir, pengguna memilih menu <b>2. Logout</b> dari Menu User, dan program memberikan konfirmasi berupa pesan <b>"Logout berhasil!"</b>.
+        Terakhir, pengguna memilih menu <b>2. Logout</b> dari Menu User, dan program memberikan konfirmasi berupa pesan <b>"Logout berhasil"</b>.
       </p>
     </td>
   </tr>
