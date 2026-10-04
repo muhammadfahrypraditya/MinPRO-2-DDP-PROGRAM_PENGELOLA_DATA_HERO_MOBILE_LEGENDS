@@ -55,8 +55,8 @@ def tambah_data():
         return
     for hero in data_hero:
         if hero["nama"] == nama:
-         print("Hero sudah ada!")
-         return
+            print("Hero sudah ada!")
+            return
 
     data_hero.append({"nama": nama, "role": role, "lane": lane})
     print("Data hero berhasil ditambahkan!")
