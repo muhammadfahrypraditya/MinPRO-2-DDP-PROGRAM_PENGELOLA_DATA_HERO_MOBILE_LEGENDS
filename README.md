@@ -9,14 +9,15 @@
 <!-- FLOWCHART LOGIN -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/cffac4e0-8107-477c-beee-92a56ae6504a"
-        width="100%"
-      />
+    <th width="50%">Flowchart</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/cffac4e0-8107-477c-beee-92a56ae6504a" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>FLOWCHART LOGIN</h3>
+    <td valign="top">
+      <b>FLOWCHART LOGIN</b><br><br>
       <p>
         Flowchart ini merupakan proses permulaan program. Jika memilih pilihan
         1, program akan meminta username dan password. Jika username dan
@@ -33,14 +34,15 @@
 <!-- FLOWCHART ADMIN -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/53822035-feea-4ba9-bcf5-eaff0e8e7085"
-        width="100%"
-      />
+    <th width="50%">Flowchart</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/53822035-feea-4ba9-bcf5-eaff0e8e7085" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>FLOWCHART MENU ADMIN</h3>
+    <td valign="top">
+      <b>FLOWCHART MENU ADMIN</b><br><br>
       <p>
         Flowchart ini merupakan menu admin yang memiliki pilihan 1 sampai 5.
         Pilihan 1 digunakan untuk menambahkan hero dengan menginput nama hero,
@@ -70,14 +72,15 @@
 <!-- FLOWCHART USER -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/01cd3c89-31a2-4b07-8235-9198ba4131a1"
-        width="100%"
-      />
+    <th width="50%">Flowchart</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/01cd3c89-31a2-4b07-8235-9198ba4131a1" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>FLOWCHART MENU USER</h3>
+    <td valign="top">
+      <b>FLOWCHART MENU USER</b><br><br>
       <p>
         Flowchart ini merupakan menu user yang hanya memiliki dua pilihan.
         Pilihan 1 digunakan untuk menampilkan list data hero, kemudian kembali
@@ -93,14 +96,15 @@
 <!-- IMPORT LIBRARY -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/327e17db-4485-4a8c-8cbe-d4b95f6011c3"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/327e17db-4485-4a8c-8cbe-d4b95f6011c3" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>IMPORT LIBRARY</h3>
+    <td valign="top">
+      <b>IMPORT LIBRARY</b><br><br>
       <p>
         Program menggunakan library <b>time</b> untuk mengatur waktu atau jeda
         dalam program, <b>pwinput</b> digunakan untuk memasukkan
@@ -116,14 +120,15 @@
 <!-- DATA AKUN DAN DATA HERO -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/1184f8f2-bcd4-471b-9cb8-a5f7002ebb17"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/1184f8f2-bcd4-471b-9cb8-a5f7002ebb17" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>DATA AKUN DAN DATA HERO</h3>
+    <td valign="top">
+      <b>DATA AKUN DAN DATA HERO</b><br><br>
       <p>
         Pada bagian ini terdapat data akun yang disimpan dalam bentuk
         <b>dictionary</b>, yaitu akun admin dan user yang masing-masing
@@ -144,14 +149,15 @@
 <!-- LOGIN -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/12e3fa72-bc2e-485e-9ccb-ceb976b36c9a"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/12e3fa72-bc2e-485e-9ccb-ceb976b36c9a" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>LOGIN</h3>
+    <td valign="top">
+      <b>LOGIN</b><br><br>
       <p>
         Fungsi <b>login()</b> digunakan untuk memproses login pengguna dengan
         memasukkan username dan password. Password menggunakan <b>pwinput</b>
@@ -172,14 +178,15 @@
 <!-- MENAMBAH DATA HERO -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/3695872d-e5ff-4ea5-a1d8-8be348b7b3b8"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/3695872d-e5ff-4ea5-a1d8-8be348b7b3b8" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENAMBAH DATA HERO</h3>
+    <td valign="top">
+      <b>MENAMBAH DATA HERO</b><br><br>
       <p>
         Fungsi <b>tambah_data()</b> digunakan untuk menambahkan hero baru
         ke dalam daftar data hero. Pengguna diminta memasukkan
@@ -205,14 +212,15 @@
 <!-- MENAMPILKAN DATA HERO -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/f976b70d-5037-4d9b-8b88-ea79cbbd5b70"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f976b70d-5037-4d9b-8b88-ea79cbbd5b70" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENAMPILKAN DATA HERO</h3>
+    <td valign="top">
+      <b>MENAMPILKAN DATA HERO</b><br><br>
       <p>
         Fungsi <b>tampilkan_data()</b> digunakan untuk menampilkan seluruh
         data hero Mobile Legends dalam bentuk tabel di terminal.
@@ -237,14 +245,15 @@
 <!-- MENGUBAH DATA HERO -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/7decf1a7-e071-45f3-ba06-044fd83dd7de"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/7decf1a7-e071-45f3-ba06-044fd83dd7de" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENGUBAH DATA HERO</h3>
+    <td valign="top">
+      <b>MENGUBAH DATA HERO</b><br><br>
       <p>
         Fungsi <b>ubah_data()</b> digunakan untuk mengubah data hero yang
         sudah tersimpan berdasarkan nomor urutnya. Program terlebih dahulu
@@ -269,49 +278,53 @@
 
 <br>
 
-<!-- KODE HAPUS DATA -->
+<!-- MENGHAPUS DATA HERO -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/bd584d9f-8062-41fa-8f5f-8dfcfd12a130"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/79782ec2-8084-4cf0-923b-b7d6a70622c6" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>KODE HAPUS DATA HERO</h3>
+    <td valign="top">
+      <b>MENGHAPUS DATA HERO</b><br><br>
       <p>
-        Fungsi <b>hapus_data()</b> digunakan untuk menghapus data hero dari
-        daftar berdasarkan nomor urutnya. Program memanggil
-        <b>tampilkan_data()</b> agar pengguna bisa melihat daftar hero
-        beserta nomornya.
+        Fungsi <b>hapus_data()</b> digunakan untuk menghapus data hero
+        yang tersimpan. Program terlebih dahulu menampilkan daftar hero,
+        kemudian pengguna diminta memasukkan nomor hero yang ingin dihapus.
       </p>
       <p>
-        Input nomor diubah ke angka dengan <b>int()</b> di dalam <b>try</b>.
-        Jika yang dimasukkan bukan angka, <b>except ValueError</b> menampilkan
-        pesan <b>"Masukkan angka saja"</b> lalu keluar dari fungsi.
+        Program mengecek apakah input yang dimasukkan berupa angka. Jika
+        bukan angka, akan muncul pesan <b>"Masukkan angka saja"</b>.
+        Setelah itu, nomor hero diperiksa untuk memastikan nomor tersebut
+        tersedia. Jika tidak ditemukan, program menampilkan pesan
+        <b>"Nomor hero tidak ditemukan"</b>.
       </p>
       <p>
-        Hero pada indeks <b>nomor - 1</b> dihapus memakai <b>pop()</b>
-        (dikurangi 1 karena indeks list dimulai dari 0). Data yang dihapus
-        disimpan ke variabel <b>hero</b>, lalu program menampilkan nama hero
-        dari <b>hero["nama"]</b> beserta pesan <b>"berhasil dihapus"</b>.
+        Jika nomor valid, data hero akan dihapus menggunakan fungsi
+        <b>pop()</b>. Setelah berhasil dihapus, program menampilkan nama
+        hero beserta pesan <b>"berhasil dihapus"</b>.
       </p>
     </td>
   </tr>
 </table>
 
+<br>
+
 <!-- MENU ADMIN CRUD -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/51e1158c-34f3-4097-a5f1-22f3f6dcac64"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/51e1158c-34f3-4097-a5f1-22f3f6dcac64" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENU ADMIN CRUD</h3>
+    <td valign="top">
+      <b>MENU ADMIN CRUD</b><br><br>
       <p>
         Fungsi <b>menu_admin()</b> digunakan sebagai menu utama admin untuk
         mengelola data hero. Menu berjalan menggunakan perulangan
@@ -340,14 +353,15 @@
 <!-- MENU USER -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/1b63a632-d03f-4220-b41a-731eea9c122e"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/1b63a632-d03f-4220-b41a-731eea9c122e" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENU USER</h3>
+    <td valign="top">
+      <b>MENU USER</b><br><br>
       <p>
         Fungsi <b>menu_user()</b> digunakan sebagai menu untuk user yang
         hanya dapat melihat data hero. Menu menggunakan perulangan
@@ -374,14 +388,15 @@
 <!-- MAIN PROGRAM -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/4bfd906c-dce3-4ee0-8c7b-c8e8697806b6"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/4bfd906c-dce3-4ee0-8c7b-c8e8697806b6" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MAIN PROGRAM</h3>
+    <td valign="top">
+      <b>MAIN PROGRAM</b><br><br>
       <p>
         Fungsi <b>main()</b> merupakan bagian utama yang menjalankan program.
         Program menggunakan <b>while True</b> agar menu utama dapat ditampilkan
@@ -409,14 +424,15 @@
 <!-- OUTPUT TAMBAH DATA -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/5053cbad-f964-40eb-8aba-a303433aea14"
-        width="100%"
-      />
+    <th width="50%">Output</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/5053cbad-f964-40eb-8aba-a303433aea14" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>HASIL OUTPUT PROGRAM</h3>
+    <td valign="top">
+      <b>HASIL OUTPUT PROGRAM</b><br><br>
       <p>
         Output ini menunjukkan proses program saat pengguna melakukan
         <b>login sebagai admin</b>. Setelah username dan password yang
@@ -442,14 +458,15 @@
 <!-- OUTPUT TAMPILKAN DATA -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/c1dc4f22-5b84-4eb3-9406-c545bee5fe1e"
-        width="100%"
-      />
+    <th width="50%">Output</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/c1dc4f22-5b84-4eb3-9406-c545bee5fe1e" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>OUTPUT MENAMPILKAN DATA HERO</h3>
+    <td valign="top">
+      <b>OUTPUT MENAMPILKAN DATA HERO</b><br><br>
       <p>
         Output ini menunjukkan proses ketika admin memilih menu
         <b>2. Tampilkan data hero</b>. Program kemudian menampilkan seluruh
@@ -475,14 +492,15 @@
 <!-- OUTPUT UBAH DATA -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/045466c1-418d-45df-91e9-a1ec8b2be508"
-        width="100%"
-      />
+    <th width="50%">Output</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/045466c1-418d-45df-91e9-a1ec8b2be508" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>OUTPUT MENGUBAH DATA HERO</h3>
+    <td valign="top">
+      <b>OUTPUT MENGUBAH DATA HERO</b><br><br>
       <p>
         Output ini menunjukkan proses ketika admin memilih menu
         <b>3. Ubah data hero</b>. Program menampilkan daftar hero terlebih
@@ -504,51 +522,53 @@
 
 <br>
 
+<!-- KODE HAPUS DATA -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img 
-       src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bd584d9f-8062-41fa-8f5f-8dfcfd12a130" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>OUTPUT MENGHAPUS DATA HERO</h3>
+    <td valign="top">
+      <b>KODE HAPUS DATA HERO</b><br><br>
       <p>
-        Output ini menunjukkan proses ketika admin memilih menu
-        <b>4. Hapus data hero</b>. Program menampilkan daftar data hero
-        terlebih dahulu, kemudian admin diminta memasukkan nomor hero
-        yang ingin dihapus.
+        Fungsi <b>hapus_data()</b> digunakan untuk menghapus data hero dari
+        daftar berdasarkan nomor urutnya. Program memanggil
+        <b>tampilkan_data()</b> agar pengguna bisa melihat daftar hero
+        beserta nomornya.
       </p>
       <p>
-        Pada contoh ini, admin memilih hero nomor <b>7</b>, yaitu hero
-        <b>Jayu</b> dengan role <b>Assassin</b> dan lane <b>Jungle</b>.
-        Setelah nomor hero valid, program menghapus data tersebut dari
-        daftar hero.
+        Input nomor diubah ke angka dengan <b>int()</b> di dalam <b>try</b>.
+        Jika yang dimasukkan bukan angka, <b>except ValueError</b> menampilkan
+        pesan <b>"Masukkan angka saja"</b> lalu keluar dari fungsi.
       </p>
       <p>
-        Setelah berhasil dihapus, program menampilkan pesan
-        <b>"Hero Jayu berhasil dihapus"</b>. Hal ini menunjukkan bahwa
-        proses penghapusan data hero berhasil dilakukan.
+        Hero pada indeks <b>nomor - 1</b> dihapus memakai <b>pop()</b>
+        (dikurangi 1 karena indeks list dimulai dari 0). Data yang dihapus
+        disimpan ke variabel <b>hero</b>, lalu program menampilkan nama hero
+        dari <b>hero["nama"]</b> beserta pesan <b>"berhasil dihapus"</b>.
       </p>
     </td>
   </tr>
 </table>
-
 
 <br>
 
 <!-- OUTPUT LOGOUT ADMIN -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df"
-        width="100%"
-      />
+    <th width="50%">Output</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>OUTPUT LOGOUT ADMIN</h3>
+    <td valign="top">
+      <b>OUTPUT LOGOUT ADMIN</b><br><br>
       <p>
         Output ini menunjukkan proses ketika admin berada pada
         <b>Menu Admin</b>. Program menampilkan beberapa pilihan menu,
@@ -574,14 +594,15 @@
 <!-- OUTPUT USER -->
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img
-        src="https://github.com/user-attachments/assets/f89a9586-afc1-4b7c-a8e4-a13cfe58b3f5"
-        width="100%"
-      />
+    <th width="50%">Output</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f89a9586-afc1-4b7c-a8e4-a13cfe58b3f5" width="100%" />
     </td>
-    <td width="50%" valign="top">
-      <h3>OUTPUT LOGIN & MENAMPILKAN DATA HERO (USER)</h3>
+    <td valign="top">
+      <b>OUTPUT LOGIN & MENAMPILKAN DATA HERO (USER)</b><br><br>
       <p>
         Output ini menunjukkan alur kerja pengguna biasa (<b>user</b>).
         Pertama, pengguna memilih menu <b>1. Login</b> pada menu utama,
