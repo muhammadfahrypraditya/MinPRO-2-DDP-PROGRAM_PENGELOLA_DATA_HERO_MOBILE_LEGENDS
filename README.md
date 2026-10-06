@@ -95,7 +95,7 @@
   <tr>
     <td width="50%" align="center">
       <img 
-        src="https://github.com/user-attachments/assets/8ee0ad00-23b0-4a74-a1d6-90458a4138bd"
+      src="https://github.com/user-attachments/assets/327e17db-4485-4a8c-8cbe-d4b95f6011c3"
         width="100%"
       />
     </td>
@@ -103,8 +103,8 @@
       <h3>IMPORT LIBRARY</h3>
       <p>
         Program menggunakan library <b>time</b> untuk mengatur waktu atau jeda
-        dalam program, sedangkan <b>pwinput</b> digunakan untuk memasukkan
-        password dengan karakter yang tidak terlihat.
+        dalam program, <b>pwinput</b> digunakan untuk memasukkan
+        password dengan karakter yang tidak terlihat. <b>prettytable</b> digunakan untuk menambahkan table agar output rapi.
       </p>
     </td>
   </tr>
@@ -170,7 +170,7 @@
   <tr>
     <td width="50%" align="center">
       <img 
-        src="https://github.com/user-attachments/assets/2181ab66-c096-4674-b6a2-0b6f93790dd8"
+     src="https://github.com/user-attachments/assets/3695872d-e5ff-4ea5-a1d8-8be348b7b3b8" 
         width="100%"
       />
     </td>
@@ -199,27 +199,23 @@
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img 
-        src="https://github.com/user-attachments/assets/cbb5c1b3-d55e-4e86-8a73-87729bc96a00" />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/f976b70d-5037-4d9b-8b88-ea79cbbd5b70" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENAMBAH DATA HERO</h3>
-      <p>
-        Fungsi <b>tambah_data()</b> digunakan untuk menambahkan data hero baru.
-        Pengguna diminta mengisi <b>nama hero, role, dan lane</b>.
-      </p>
-      <p>
-        Program melakukan pengecekan agar data tidak boleh kosong. Role dan
-        lane juga harus sesuai dengan daftar yang sudah ditentukan.
-        Selain itu, program mengecek apakah nama hero sudah ada untuk
-        menghindari data yang sama.
-      </p>
-      <p>
-        Jika semua data valid, data hero akan ditambahkan ke dalam
-        <b>data_hero</b> menggunakan <b>append()</b>. Setelah berhasil,
-        program menampilkan pesan <b>"Data hero berhasil ditambahkan"</b>.
-      </p>
+    <td>
+      <b>Fungsi <code>tampilkan_data()</code></b><br><br>
+      Fungsi ini menampilkan seluruh data hero Mobile Legends dalam bentuk tabel di terminal.<br><br>
+      <b>Cara kerja:</b>
+      <ol>
+        <li>Mengecek apakah <code>data_hero</code> kosong. Jika kosong, tampil pesan "Belum ada data hero." lalu keluar dari fungsi.</li>
+        <li>Membuat tabel dengan <code>PrettyTable</code> dengan kolom No, Nama Hero, Role, dan Lane.</li>
+        <li>Mengulang setiap hero di <code>data_hero</code>, lalu menambahkannya ke tabel beserta nomor urut otomatis.</li>
+        <li>Mencetak tabel ke layar.</li>
+      </ol>
     </td>
   </tr>
 </table>
@@ -227,62 +223,27 @@
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img 
-        src="https://github.com/user-attachments/assets/fc12ae8d-58e6-49f5-9207-17588de6280e"
-        width="100%"
-      />
-    </td>
-    <td width="50%" valign="top">
-      <h3>MENAMPILKAN DATA HERO</h3>
-      <p>
-        Fungsi <b>tampilkan_data()</b> digunakan untuk menampilkan seluruh
-        data hero yang tersimpan di dalam <b>data_hero</b>.
-      </p>
-      <p>
-        Program terlebih dahulu mengecek apakah data hero masih kosong.
-        Jika belum ada data, program akan menampilkan pesan
-        <b>"Belum ada data hero."</b> dan proses dihentikan.
-      </p>
-      <p>
-        Jika data tersedia, program menampilkan nomor, nama hero, role,
-        dan lane. Variabel <b>nomor</b> digunakan sebagai nomor urut dan
-        akan bertambah setiap kali program melakukan perulangan pada
-        setiap data hero.
-      </p>
-    </td>
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
   </tr>
-</table>
-
-<table>
   <tr>
-    <td width="50%" align="center">
-      <img 
-        src="https://github.com/user-attachments/assets/8c387f5c-e12b-4507-9d42-4d576dcfe60b"
-        width="100%"
-      />
+    <td>
+      <img src="https://github.com/user-attachments/assets/7decf1a7-e071-45f3-ba06-044fd83dd7de" />
     </td>
-    <td width="50%" valign="top">
-      <h3>MENAMPILKAN DATA HERO</h3>
-      <p>
-        Fungsi <b>tampilkan_data()</b> digunakan untuk menampilkan seluruh
-        data hero yang tersimpan di dalam <b>data_hero</b>.
-      </p>
-      <p>
-        Program terlebih dahulu mengecek apakah data hero masih kosong.
-        Jika belum ada data, program akan menampilkan pesan
-        <b>"Belum ada data hero."</b> dan proses dihentikan.
-      </p>
-      <p>
-        Jika data tersedia, program menampilkan nomor, nama hero, role,
-        dan lane. Variabel <b>nomor</b> digunakan sebagai nomor urut dan
-        akan bertambah setiap kali program melakukan perulangan pada
-        setiap data hero.
-      </p>
+    <td>
+      <b>Fungsi <code>ubah_data()</code></b><br><br>
+      Fungsi ini digunakan untuk mengubah data hero yang sudah tersimpan berdasarkan nomor urutnya.<br><br>
+      <b>Cara kerja:</b>
+      <ol>
+        <li>Menampilkan judul menu dan memanggil <code>tampilkan_data()</code> agar pengguna bisa melihat daftar hero beserta nomornya.</li>
+        <li>Meminta input nomor hero yang ingin diubah. Input diubah ke angka dengan <code>int()</code> di dalam <code>try</code>. Jika yang dimasukkan bukan angka, <code>except ValueError</code> menampilkan pesan "Masukkan angka saja" lalu keluar dari fungsi.</li>
+        <li>Meminta input nama, role, dan lane yang baru.</li>
+        <li>Memvalidasi input: nama tidak boleh kosong, role harus ada di <code>daftar_role</code>, dan lane harus ada di <code>daftar_lane</code>. Jika salah satu tidak valid, muncul pesan error dan fungsi berhenti dengan <code>return</code>.</li>
+        <li>Jika semua valid, data hero pada indeks <code>nomor - 1</code> diperbarui (dikurangi 1 karena indeks list dimulai dari 0), lalu tampil pesan "Data hero berhasil diubah!".</li>
+      </ol>
     </td>
   </tr>
 </table>
-
 
 <table>
   <tr>
@@ -507,31 +468,23 @@
 
 <table>
   <tr>
-    <td width="50%" align="center">
-      <img 
-       src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df"
-        width="100%"
-      />
+    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Penjelasan</th>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bd584d9f-8062-41fa-8f5f-8dfcfd12a130" />
     </td>
-    <td width="50%" valign="top">
-      <h3>OUTPUT MENGHAPUS DATA HERO</h3>
-      <p>
-        Output ini menunjukkan proses ketika admin memilih menu
-        <b>4. Hapus data hero</b>. Program menampilkan daftar data hero
-        terlebih dahulu, kemudian admin diminta memasukkan nomor hero
-        yang ingin dihapus.
-      </p>
-      <p>
-        Pada contoh ini, admin memilih hero nomor <b>7</b>, yaitu hero
-        <b>Jayu</b> dengan role <b>Assassin</b> dan lane <b>Jungle</b>.
-        Setelah nomor hero valid, program menghapus data tersebut dari
-        daftar hero.
-      </p>
-      <p>
-        Setelah berhasil dihapus, program menampilkan pesan
-        <b>"Hero Jayu berhasil dihapus"</b>. Hal ini menunjukkan bahwa
-        proses penghapusan data hero berhasil dilakukan.
-      </p>
+    <td>
+      <b>Fungsi <code>hapus_data()</code></b><br><br>
+      Fungsi ini digunakan untuk menghapus data hero dari daftar berdasarkan nomor urutnya.<br><br>
+      <b>Cara kerja:</b>
+      <ol>
+        <li>Menampilkan judul menu dan memanggil <code>tampilkan_data()</code> agar pengguna bisa melihat daftar hero beserta nomornya.</li>
+        <li>Meminta input nomor hero yang ingin dihapus. Input diubah ke angka dengan <code>int()</code> di dalam <code>try</code>. Jika yang dimasukkan bukan angka, <code>except ValueError</code> menampilkan pesan "Masukkan angka saja" lalu keluar dari fungsi.</li>
+        <li>Menghapus hero pada indeks <code>nomor - 1</code> memakai <code>pop()</code> (dikurangi 1 karena indeks list dimulai dari 0). Data yang dihapus disimpan ke variabel <code>hero</code>.</li>
+        <li>Menampilkan pesan bahwa hero tersebut berhasil dihapus, dengan mengambil namanya dari <code>hero["nama"]</code>.</li>
+      </ol>
     </td>
   </tr>
 </table>
