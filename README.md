@@ -463,7 +463,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/c1dc4f22-5b84-4eb3-9406-c545bee5fe1e" width="100%" />
+      <img src="https://github.com/user-attachments/assets/2b056f62-e319-4b77-b5c3-547a4411434c" width="100%" />
     </td>
     <td valign="top">
       <b>OUTPUT MENAMPILKAN DATA HERO</b><br><br>
@@ -474,9 +474,7 @@
       </p>
       <p>
         Data ditampilkan dalam bentuk tabel sederhana yang berisi
-        <b>nomor, nama hero, role, dan lane</b>. Pada output ini terdapat
-        7 data hero, termasuk hero baru yaitu <b>Azzam</b> dengan role
-        <b>Tank</b> dan lane <b>Roam</b>.
+        <b>nomor, nama hero, role, dan lane</b>.
       </p>
       <p>
         Data yang ditampilkan menunjukkan bahwa proses penambahan data
@@ -497,7 +495,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/045466c1-418d-45df-91e9-a1ec8b2be508" width="100%" />
+      <img src="https://github.com/user-attachments/assets/b79ea45e-28bc-4947-8c3f-440eb440b299"  width="100%" />
     </td>
     <td valign="top">
       <b>OUTPUT MENGUBAH DATA HERO</b><br><br>
@@ -509,7 +507,7 @@
       <p>
         Pada contoh ini, admin memilih hero nomor <b>7</b> yang sebelumnya
         bernama <b>Azzam</b>. Kemudian data tersebut diubah menjadi nama
-        <b>Jayu</b>, dengan role <b>Assassin</b> dan lane <b>Jungle</b>.
+        <b>Jay</b>, dengan role <b>Assassin</b> dan lane <b>Jungle</b>.
       </p>
       <p>
         Setelah data baru dimasukkan dan valid, program berhasil memperbarui
@@ -599,7 +597,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/f89a9586-afc1-4b7c-a8e4-a13cfe58b3f5" width="100%" />
+      <img src="https://github.com/user-attachments/assets/d3fecf58-5cba-4160-a954-8758eb6a6d82" width="100%" />
     </td>
     <td valign="top">
       <b>OUTPUT LOGIN & MENAMPILKAN DATA HERO (USER)</b><br><br>
