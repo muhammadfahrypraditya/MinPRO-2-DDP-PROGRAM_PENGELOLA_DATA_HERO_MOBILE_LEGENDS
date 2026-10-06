@@ -10,7 +10,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/cffac4e0-8107-477c-beee-92a56ae6504a"
         width="100%"
       />
@@ -34,7 +34,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/53822035-feea-4ba9-bcf5-eaff0e8e7085"
         width="100%"
       />
@@ -71,7 +71,7 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/01cd3c89-31a2-4b07-8235-9198ba4131a1"
         width="100%"
       />
@@ -94,8 +94,8 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
-      src="https://github.com/user-attachments/assets/327e17db-4485-4a8c-8cbe-d4b95f6011c3"
+      <img
+        src="https://github.com/user-attachments/assets/327e17db-4485-4a8c-8cbe-d4b95f6011c3"
         width="100%"
       />
     </td>
@@ -104,18 +104,20 @@
       <p>
         Program menggunakan library <b>time</b> untuk mengatur waktu atau jeda
         dalam program, <b>pwinput</b> digunakan untuk memasukkan
-        password dengan karakter yang tidak terlihat. <b>prettytable</b> digunakan untuk menambahkan table agar output rapi.
+        password dengan karakter yang tidak terlihat, dan <b>prettytable</b>
+        digunakan untuk menambahkan tabel agar output rapi.
       </p>
     </td>
   </tr>
 </table>
+
 <br>
 
 <!-- DATA AKUN DAN DATA HERO -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/1184f8f2-bcd4-471b-9cb8-a5f7002ebb17"
         width="100%"
       />
@@ -137,12 +139,13 @@
   </tr>
 </table>
 
+<br>
 
-
+<!-- LOGIN -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/12e3fa72-bc2e-485e-9ccb-ceb976b36c9a"
         width="100%"
       />
@@ -164,13 +167,14 @@
   </tr>
 </table>
 
+<br>
 
-
+<!-- MENAMBAH DATA HERO -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
-     src="https://github.com/user-attachments/assets/3695872d-e5ff-4ea5-a1d8-8be348b7b3b8" 
+      <img
+        src="https://github.com/user-attachments/assets/3695872d-e5ff-4ea5-a1d8-8be348b7b3b8"
         width="100%"
       />
     </td>
@@ -196,91 +200,112 @@
   </tr>
 </table>
 
+<br>
 
-<table>
-  <tr>
-    <th width="50%">Tampilan Kode</th>
-    <th width="50%">Penjelasan</th>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/f976b70d-5037-4d9b-8b88-ea79cbbd5b70" />
-    </td>
-    <td>
-      <b>Fungsi <code>tampilkan_data()</code></b><br><br>
-      Fungsi ini menampilkan seluruh data hero Mobile Legends dalam bentuk tabel di terminal.<br><br>
-      <b>Cara kerja:</b>
-      <ol>
-        <li>Mengecek apakah <code>data_hero</code> kosong. Jika kosong, tampil pesan "Belum ada data hero." lalu keluar dari fungsi.</li>
-        <li>Membuat tabel dengan <code>PrettyTable</code> dengan kolom No, Nama Hero, Role, dan Lane.</li>
-        <li>Mengulang setiap hero di <code>data_hero</code>, lalu menambahkannya ke tabel beserta nomor urut otomatis.</li>
-        <li>Mencetak tabel ke layar.</li>
-      </ol>
-    </td>
-  </tr>
-</table>
-
-
-<table>
-  <tr>
-    <th width="50%">Tampilan Kode</th>
-    <th width="50%">Penjelasan</th>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/7decf1a7-e071-45f3-ba06-044fd83dd7de" />
-    </td>
-    <td>
-      <b>Fungsi <code>ubah_data()</code></b><br><br>
-      Fungsi ini digunakan untuk mengubah data hero yang sudah tersimpan berdasarkan nomor urutnya.<br><br>
-      <b>Cara kerja:</b>
-      <ol>
-        <li>Menampilkan judul menu dan memanggil <code>tampilkan_data()</code> agar pengguna bisa melihat daftar hero beserta nomornya.</li>
-        <li>Meminta input nomor hero yang ingin diubah. Input diubah ke angka dengan <code>int()</code> di dalam <code>try</code>. Jika yang dimasukkan bukan angka, <code>except ValueError</code> menampilkan pesan "Masukkan angka saja" lalu keluar dari fungsi.</li>
-        <li>Meminta input nama, role, dan lane yang baru.</li>
-        <li>Memvalidasi input: nama tidak boleh kosong, role harus ada di <code>daftar_role</code>, dan lane harus ada di <code>daftar_lane</code>. Jika salah satu tidak valid, muncul pesan error dan fungsi berhenti dengan <code>return</code>.</li>
-        <li>Jika semua valid, data hero pada indeks <code>nomor - 1</code> diperbarui (dikurangi 1 karena indeks list dimulai dari 0), lalu tampil pesan "Data hero berhasil diubah!".</li>
-      </ol>
-    </td>
-  </tr>
-</table>
-
+<!-- MENAMPILKAN DATA HERO -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
-        src="https://github.com/user-attachments/assets/79782ec2-8084-4cf0-923b-b7d6a70622c6" 
+      <img
+        src="https://github.com/user-attachments/assets/f976b70d-5037-4d9b-8b88-ea79cbbd5b70"
         width="100%"
       />
     </td>
     <td width="50%" valign="top">
-      <h3>MENGHAPUS DATA HERO</h3>
+      <h3>MENAMPILKAN DATA HERO</h3>
       <p>
-        Fungsi <b>hapus_data()</b> digunakan untuk menghapus data hero
-        yang tersimpan. Program terlebih dahulu menampilkan daftar hero,
-        kemudian pengguna diminta memasukkan nomor hero yang ingin dihapus.
+        Fungsi <b>tampilkan_data()</b> digunakan untuk menampilkan seluruh
+        data hero Mobile Legends dalam bentuk tabel di terminal.
       </p>
       <p>
-        Program mengecek apakah input yang dimasukkan berupa angka. Jika
-        bukan angka, akan muncul pesan <b>"Masukkan angka saja"</b>.
-        Setelah itu, nomor hero diperiksa untuk memastikan nomor tersebut
-        tersedia. Jika tidak ditemukan, program menampilkan pesan
-        <b>"Nomor hero tidak ditemukan"</b>.
+        Program mengecek apakah <b>data_hero</b> kosong. Jika kosong, akan
+        muncul pesan <b>"Belum ada data hero."</b> lalu keluar dari fungsi
+        menggunakan <b>return</b>.
       </p>
       <p>
-        Jika nomor valid, data hero akan dihapus menggunakan fungsi
-        <b>pop()</b>. Setelah berhasil dihapus, program menampilkan nama
-        hero beserta pesan <b>"berhasil dihapus"</b>.
+        Jika ada data, program membuat tabel menggunakan <b>PrettyTable</b>
+        dengan kolom <b>No, Nama Hero, Role, dan Lane</b>. Setiap hero pada
+        <b>data_hero</b> ditambahkan ke tabel beserta nomor urut otomatis,
+        kemudian tabel dicetak ke layar.
       </p>
     </td>
   </tr>
 </table>
 
+<br>
 
+<!-- MENGUBAH DATA HERO -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
+        src="https://github.com/user-attachments/assets/7decf1a7-e071-45f3-ba06-044fd83dd7de"
+        width="100%"
+      />
+    </td>
+    <td width="50%" valign="top">
+      <h3>MENGUBAH DATA HERO</h3>
+      <p>
+        Fungsi <b>ubah_data()</b> digunakan untuk mengubah data hero yang
+        sudah tersimpan berdasarkan nomor urutnya. Program terlebih dahulu
+        menampilkan daftar hero menggunakan <b>tampilkan_data()</b>, kemudian
+        pengguna diminta memasukkan nomor hero yang ingin diubah.
+      </p>
+      <p>
+        Input nomor diubah ke angka dengan <b>int()</b> di dalam
+        <b>try</b>. Jika yang dimasukkan bukan angka, <b>except ValueError</b>
+        menampilkan pesan <b>"Masukkan angka saja"</b> lalu keluar dari fungsi.
+      </p>
+      <p>
+        Setelah itu, pengguna memasukkan nama, role, dan lane yang baru.
+        Program memvalidasi bahwa nama tidak boleh kosong, role harus ada di
+        <b>daftar_role</b>, dan lane harus ada di <b>daftar_lane</b>. Jika
+        valid, data hero pada indeks <b>nomor - 1</b> diperbarui dan program
+        menampilkan pesan <b>"Data hero berhasil diubah!"</b>.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<!-- KODE HAPUS DATA -->
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img
+        src="https://github.com/user-attachments/assets/bd584d9f-8062-41fa-8f5f-8dfcfd12a130"
+        width="100%"
+      />
+    </td>
+    <td width="50%" valign="top">
+      <h3>KODE HAPUS DATA HERO</h3>
+      <p>
+        Fungsi <b>hapus_data()</b> digunakan untuk menghapus data hero dari
+        daftar berdasarkan nomor urutnya. Program memanggil
+        <b>tampilkan_data()</b> agar pengguna bisa melihat daftar hero
+        beserta nomornya.
+      </p>
+      <p>
+        Input nomor diubah ke angka dengan <b>int()</b> di dalam <b>try</b>.
+        Jika yang dimasukkan bukan angka, <b>except ValueError</b> menampilkan
+        pesan <b>"Masukkan angka saja"</b> lalu keluar dari fungsi.
+      </p>
+      <p>
+        Hero pada indeks <b>nomor - 1</b> dihapus memakai <b>pop()</b>
+        (dikurangi 1 karena indeks list dimulai dari 0). Data yang dihapus
+        disimpan ke variabel <b>hero</b>, lalu program menampilkan nama hero
+        dari <b>hero["nama"]</b> beserta pesan <b>"berhasil dihapus"</b>.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<!-- MENU ADMIN CRUD -->
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img
         src="https://github.com/user-attachments/assets/51e1158c-34f3-4097-a5f1-22f3f6dcac64"
         width="100%"
       />
@@ -310,12 +335,14 @@
   </tr>
 </table>
 
+<br>
 
+<!-- MENU USER -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
-       src="https://github.com/user-attachments/assets/1b63a632-d03f-4220-b41a-731eea9c122e"
+      <img
+        src="https://github.com/user-attachments/assets/1b63a632-d03f-4220-b41a-731eea9c122e"
         width="100%"
       />
     </td>
@@ -342,12 +369,14 @@
   </tr>
 </table>
 
+<br>
 
+<!-- MAIN PROGRAM -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
-     src="https://github.com/user-attachments/assets/4bfd906c-dce3-4ee0-8c7b-c8e8697806b6"
+      <img
+        src="https://github.com/user-attachments/assets/4bfd906c-dce3-4ee0-8c7b-c8e8697806b6"
         width="100%"
       />
     </td>
@@ -375,11 +404,13 @@
   </tr>
 </table>
 
+<br>
 
+<!-- OUTPUT TAMBAH DATA -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/5053cbad-f964-40eb-8aba-a303433aea14"
         width="100%"
       />
@@ -406,6 +437,9 @@
   </tr>
 </table>
 
+<br>
+
+<!-- OUTPUT TAMPILKAN DATA -->
 <table>
   <tr>
     <td width="50%" align="center">
@@ -436,10 +470,13 @@
   </tr>
 </table>
 
+<br>
+
+<!-- OUTPUT UBAH DATA -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
+      <img
         src="https://github.com/user-attachments/assets/045466c1-418d-45df-91e9-a1ec8b2be508"
         width="100%"
       />
@@ -465,35 +502,48 @@
   </tr>
 </table>
 
-
-<table>
-  <tr>
-    <th width="50%">Tampilan Kode</th>
-    <th width="50%">Penjelasan</th>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/bd584d9f-8062-41fa-8f5f-8dfcfd12a130" />
-    </td>
-    <td>
-      <b>Fungsi <code>hapus_data()</code></b><br><br>
-      Fungsi ini digunakan untuk menghapus data hero dari daftar berdasarkan nomor urutnya.<br><br>
-      <b>Cara kerja:</b>
-      <ol>
-        <li>Menampilkan judul menu dan memanggil <code>tampilkan_data()</code> agar pengguna bisa melihat daftar hero beserta nomornya.</li>
-        <li>Meminta input nomor hero yang ingin dihapus. Input diubah ke angka dengan <code>int()</code> di dalam <code>try</code>. Jika yang dimasukkan bukan angka, <code>except ValueError</code> menampilkan pesan "Masukkan angka saja" lalu keluar dari fungsi.</li>
-        <li>Menghapus hero pada indeks <code>nomor - 1</code> memakai <code>pop()</code> (dikurangi 1 karena indeks list dimulai dari 0). Data yang dihapus disimpan ke variabel <code>hero</code>.</li>
-        <li>Menampilkan pesan bahwa hero tersebut berhasil dihapus, dengan mengambil namanya dari <code>hero["nama"]</code>.</li>
-      </ol>
-    </td>
-  </tr>
-</table>
+<br>
 
 <table>
   <tr>
     <td width="50%" align="center">
       <img 
        src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df"
+        width="100%"
+      />
+    </td>
+    <td width="50%" valign="top">
+      <h3>OUTPUT MENGHAPUS DATA HERO</h3>
+      <p>
+        Output ini menunjukkan proses ketika admin memilih menu
+        <b>4. Hapus data hero</b>. Program menampilkan daftar data hero
+        terlebih dahulu, kemudian admin diminta memasukkan nomor hero
+        yang ingin dihapus.
+      </p>
+      <p>
+        Pada contoh ini, admin memilih hero nomor <b>7</b>, yaitu hero
+        <b>Jayu</b> dengan role <b>Assassin</b> dan lane <b>Jungle</b>.
+        Setelah nomor hero valid, program menghapus data tersebut dari
+        daftar hero.
+      </p>
+      <p>
+        Setelah berhasil dihapus, program menampilkan pesan
+        <b>"Hero Jayu berhasil dihapus"</b>. Hal ini menunjukkan bahwa
+        proses penghapusan data hero berhasil dilakukan.
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+<br>
+
+<!-- OUTPUT LOGOUT ADMIN -->
+<table>
+  <tr>
+    <td width="50%" align="center">
+      <img
+        src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df"
         width="100%"
       />
     </td>
@@ -519,25 +569,35 @@
   </tr>
 </table>
 
+<br>
+
+<!-- OUTPUT USER -->
 <table>
   <tr>
     <td width="50%" align="center">
-      <img 
-       src="https://github.com/user-attachments/assets/f89a9586-afc1-4b7c-a8e4-a13cfe58b3f5" 
+      <img
+        src="https://github.com/user-attachments/assets/f89a9586-afc1-4b7c-a8e4-a13cfe58b3f5"
         width="100%"
-        alt="Output Menu User"
       />
     </td>
     <td width="50%" valign="top">
       <h3>OUTPUT LOGIN & MENAMPILKAN DATA HERO (USER)</h3>
       <p>
-        Output ini menunjukkan alur kerja pengguna biasa (<b>user</b>). Pertama, pengguna memilih menu <b>1. Login</b> pada menu utama, kemudian memasukkan username dan password hingga muncul pesan <b>"Login berhasil!"</b>.
+        Output ini menunjukkan alur kerja pengguna biasa (<b>user</b>).
+        Pertama, pengguna memilih menu <b>1. Login</b> pada menu utama,
+        kemudian memasukkan username dan password hingga muncul pesan
+        <b>"Login berhasil!"</b>.
       </p>
       <p>
-        Setelah masuk ke <b>MENU USER</b>, pengguna memilih menu <b>1. Tampilkan data hero</b>. Program kemudian menampilkan tabel berisi daftar hero yang mencakup kolom nomor, nama hero, role, dan lane (contoh: Miya, Tigreal, Alucard, dll).
+        Setelah masuk ke <b>MENU USER</b>, pengguna memilih menu
+        <b>1. Tampilkan data hero</b>. Program kemudian menampilkan tabel
+        berisi daftar hero yang mencakup kolom nomor, nama hero, role, dan
+        lane (contoh: Miya, Tigreal, Alucard, dll).
       </p>
       <p>
-        Terakhir, pengguna memilih menu <b>2. Logout</b> dari Menu User, dan program memberikan konfirmasi berupa pesan <b>"Logout berhasil"</b>.
+        Terakhir, pengguna memilih menu <b>2. Logout</b> dari Menu User,
+        dan program memberikan konfirmasi berupa pesan
+        <b>"Logout berhasil"</b>.
       </p>
     </td>
   </tr>
