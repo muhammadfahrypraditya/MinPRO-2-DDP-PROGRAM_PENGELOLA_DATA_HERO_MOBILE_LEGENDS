@@ -286,7 +286,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/79782ec2-8084-4cf0-923b-b7d6a70622c6" width="100%" />
+      <img src="https://github.com/user-attachments/assets/c91cc885-53db-4c6d-a7ef-87d99211b1a5" width="100%" />
     </td>
     <td valign="top">
       <b>MENGHAPUS DATA HERO</b><br><br>
@@ -298,10 +298,6 @@
       <p>
         Program mengecek apakah input yang dimasukkan berupa angka. Jika
         bukan angka, akan muncul pesan <b>"Masukkan angka saja"</b>.
-        Setelah itu, nomor hero diperiksa untuk memastikan nomor tersebut
-        tersedia. Jika tidak ditemukan, program menampilkan pesan
-        <b>"Nomor hero tidak ditemukan"</b>.
-      </p>
       <p>
         Jika nomor valid, data hero akan dihapus menggunakan fungsi
         <b>pop()</b>. Setelah berhasil dihapus, program menampilkan nama
