@@ -522,34 +522,34 @@
 
 <br>
 
-<!-- KODE HAPUS DATA -->
+<!-- OUTPUT HAPUS DATA -->
 <table>
   <tr>
-    <th width="50%">Tampilan Kode</th>
+    <th width="50%">Output</th>
     <th width="50%">Penjelasan</th>
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/bd584d9f-8062-41fa-8f5f-8dfcfd12a130" width="100%" />
+      <img src="https://github.com/user-attachments/assets/f7617533-9314-46f6-9a8e-81aaff8d4593" />
     </td>
     <td valign="top">
-      <b>KODE HAPUS DATA HERO</b><br><br>
+      <b>OUTPUT MENGHAPUS DATA HERO</b><br><br>
       <p>
-        Fungsi <b>hapus_data()</b> digunakan untuk menghapus data hero dari
-        daftar berdasarkan nomor urutnya. Program memanggil
-        <b>tampilkan_data()</b> agar pengguna bisa melihat daftar hero
-        beserta nomornya.
+        Output ini menunjukkan proses ketika admin memilih menu
+        <b>4. Hapus data hero</b>. Program menampilkan judul
+        <b>HAPUS DATA HERO</b> lalu menampilkan daftar hero dalam bentuk
+        tabel yang berisi nomor, nama hero, role, dan lane. Pada output ini
+        terdapat 6 data hero, yaitu Miya, Tigreal, Alucard, Gord, Karina,
+        dan Estes.
       </p>
       <p>
-        Input nomor diubah ke angka dengan <b>int()</b> di dalam <b>try</b>.
-        Jika yang dimasukkan bukan angka, <b>except ValueError</b> menampilkan
-        pesan <b>"Masukkan angka saja"</b> lalu keluar dari fungsi.
+        Setelah itu, admin diminta memasukkan nomor hero yang ingin dihapus.
+        Pada contoh ini, admin memasukkan nomor <b>5</b>, yaitu hero
+        <b>Karina</b> dengan role <b>Assassin</b> dan lane <b>Jungle</b>.
       </p>
       <p>
-        Hero pada indeks <b>nomor - 1</b> dihapus memakai <b>pop()</b>
-        (dikurangi 1 karena indeks list dimulai dari 0). Data yang dihapus
-        disimpan ke variabel <b>hero</b>, lalu program menampilkan nama hero
-        dari <b>hero["nama"]</b> beserta pesan <b>"berhasil dihapus"</b>.
+        Karena nomor yang dimasukkan valid, data hero berhasil dihapus dan
+        program menampilkan pesan <b>"Hero Karina berhasil dihapus!"</b>.
       </p>
     </td>
   </tr>
@@ -565,7 +565,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/139feacd-5267-44fa-8953-49a2248e37df" width="100%" />
+      <img <img width="612" height="434" alt="Cuplikan layar 2026-10-06 135156" src="https://github.com/user-attachments/assets/fd60aa5f-1410-4fc1-951f-f1c0febe3cbc" />
     </td>
     <td valign="top">
       <b>OUTPUT LOGOUT ADMIN</b><br><br>
